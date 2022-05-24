@@ -1,0 +1,29 @@
+{
+  "name": "wxmini-async-solve",
+  "version": "1.0.0",
+  "description": "微信小程序异步数据依赖解决方案",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "node_modules/.bin/rollup -c ./rollup.config.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "wechat",
+    "miniprogram",
+    "async"
+  ],
+  "author": "zcd999",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.16.0",
+    "@babel/plugin-transform-runtime": "^7.17.10",
+    "@babel/preset-env": "^7.16.0",
+    "@babel/runtime": "^7.16.0",
+    "@rollup/plugin-babel": "^5.3.0",
+    "@rollup/plugin-commonjs": "^21.0.1",
+    "@rollup/plugin-node-resolve": "^13.0.6",
+    "@rollup/plugin-typescript": "^8.3.2",
+    "rollup": "^2.72.1",
+    "rollup-plugin-uglify": "^6.0.4"
+  }
+}
